@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { Dialog, Popover } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import { BsLinkedin, BsGithub } from 'react-icons/bs';
 
 function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -13,7 +14,7 @@ function Header() {
       >
         <div className='flex lg:flex-1 text-black'>
           <a href='/' className='-m-1.5 p-1.5'>
-            <span>Ronan Salvador</span>
+            <span className='font-sans'>Ronan Salvador</span>
           </a>
         </div>
         <div className='flex lg:hidden'>
@@ -43,7 +44,14 @@ function Header() {
             Contato
           </a>
         </Popover.Group>
-        <div className='hidden lg:flex lg:flex-1 lg:justify-end'></div>
+        <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
+          <a href='https://www.linkedin.com/in/ronansalvador/'>
+            <BsLinkedin className='w-8 h-8 mr-6 hover:scale-150' />
+          </a>
+          <a href='https://github.com/ronansalvador'>
+            <BsGithub className='w-8 h-8 hover:scale-150' />
+          </a>
+        </div>
       </nav>
       <Dialog
         as='div'
@@ -88,7 +96,14 @@ function Header() {
                   Contato
                 </a>
               </div>
-              <div className='py-6'></div>
+              <div className='py-6 text-black flex'>
+                <a href='https://www.linkedin.com/in/ronansalvador/'>
+                  <BsLinkedin className='w-8 h-8 mr-6' />
+                </a>
+                <a href='https://github.com/ronansalvador'>
+                  <BsGithub className='w-8 h-8' />
+                </a>
+              </div>
             </div>
           </div>
         </Dialog.Panel>
