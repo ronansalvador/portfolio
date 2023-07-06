@@ -2,14 +2,14 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className='h-5/6 w-5/6 flex max-sm:flex-col max-sm:h-full max-sm:w-full'>
-      <div className='flex items-center justify-center p-8 max-sm:p-1'>
+    <div className='h-5/6 w-5/6 flex max-xl:flex-col max-sm:h-full max-sm:w-full'>
+      <div className='flex items-center justify-center p-8 max-md:p-1'>
         <Image
           src='/ronan.jpeg'
           width='300'
           height='300'
           alt='Ronan Salvador'
-          className='rounded-full h-72 w-72 max-sm:h-36 max-sm:w-36'
+          className='rounded-full h-62 w-62 max-lg:h-36 max-sm:w-36'
         ></Image>
       </div>
       <div className='bg-white shadow-lg rounded-md flex flex-col flex-1 items-center justify-center p-40 max-sm:p-1'>
