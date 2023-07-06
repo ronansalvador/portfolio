@@ -56,7 +56,10 @@ function page() {
       </div>
       <div className='container mx-auto p-4 bg-white shadow-lg m-2 flex flex-wrap items-center justify-center'>
         {projects.map((project) => (
-          <div key={project.id} className='w-1/3 bg-red-400 rounded-lg'>
+          <div
+            key={project.id}
+            className='w-1/4 h-40 bg-red-400 rounded-lg m-3'
+          >
             <CardProject project={project} />
           </div>
         ))}
