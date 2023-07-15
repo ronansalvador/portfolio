@@ -9,15 +9,15 @@ export default function Home() {
           width='300'
           height='300'
           alt='Ronan Salvador'
-          className='rounded-full h-62 w-62 max-lg:h-36 max-sm:w-36'
+          className='rounded-full h-62 w-62 max-lg:h-36 max-sm:w-36 opacity-0 scale-0 animate-surgir'
         ></Image>
       </div>
       <div className='bg-white shadow-lg rounded-md flex flex-col flex-1 items-center justify-center p-40 max-sm:p-1'>
-        <div className='p-2 max-sm:p-0 flex flex-1 flex-col items-center justify-center'>
+        <div className='p-2 max-sm:p-0 flex flex-1 flex-col items-center justify-center opacity-0 translate-x-full animate-surgir-direita'>
           <h1 className='font-bold max-sm:hidden'>
             Desenvovedor web full stack
           </h1>
-          <p className='text-justify mt-4 max-sm:mt-1'>
+          <p className='text-justify mt-4 max-sm:mt-1 '>
             Sou Desenvolvedor Web, com formação em ciências da computação,
             experiência com testes de funcionalidade, gerenciamento de equipes e
             apaixonado por criar aplicações que impactem a vida das pessoas.
@@ -25,7 +25,7 @@ export default function Home() {
         </div>
 
         <h2 className='font-bold mt-4 max-sm:mt-1'>Stacks</h2>
-        <ul className='flex flex-wrap items-center justify-center mt-4 max-sm:mt-1'>
+        <ul className='flex flex-wrap items-center justify-center mt-4 max-sm:mt-1 opacity-0 -translate-x-full animate-surgir-esquerda'>
           <li className='bg-green-400 m-0.5 rounded p-2 max-sm:p-1'>
             JavaScript
           </li>
