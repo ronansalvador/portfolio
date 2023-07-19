@@ -1,4 +1,25 @@
 import Image from 'next/image';
+const stacks = [
+  'JavaScript',
+  'TypeScript',
+  'HTML',
+  'CSS',
+  'Tailwind',
+  'React',
+  'Redux',
+  'Next.js',
+  'Node.js',
+  'Python',
+  'Express.js',
+  'Sequelize',
+  'Docker',
+  'Mocha (Chai e Sinon)',
+  'Jest',
+  'React Testing Library',
+  'MySQL',
+  'MongoDB',
+  'Metodologias Ágeis',
+];
 
 export default function Home() {
   return (
@@ -26,59 +47,14 @@ export default function Home() {
 
         <h2 className='font-bold mt-4 max-sm:mt-1'>Stacks</h2>
         <ul className='flex flex-wrap items-center justify-center mt-4 max-sm:mt-1 opacity-0 -translate-x-full animate-surgir-esquerda'>
-          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
-            JavaScript
-          </li>
-          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
-            TypeScript
-          </li>
-          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
-            HTML
-          </li>
-          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
-            CSS
-          </li>
-          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
-            Tailwind
-          </li>
-          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
-            React
-          </li>
-          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
-            Redux
-          </li>
-          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
-            Next.js
-          </li>
-          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
-            Node.js
-          </li>
-          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
-            Python
-          </li>
-          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
-            Express.js
-          </li>
-          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
-            Sequelize
-          </li>
-          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
-            Docker
-          </li>
-          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
-            Mocha (Chai e Sinon)
-          </li>
-          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
-            Jest
-          </li>
-          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
-            React Testing Library
-          </li>
-          <li className='bg-verde text-white m-0.5 rounded p-2'>MySQL</li>
-          <li className='bg-verde text-white m-0.5 rounded p-2'>MongoDB</li>
-          <li className='bg-verde text-white m-0.5 rounded p-2'>
-            Metodologias Ágeis
-          </li>
+          {stacks.map((stack) => (
+            <li
+              key={stack}
+              className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'
+            >
+              {stack}
+            </li>
+          ))}
         </ul>
 
         <a
