@@ -12,7 +12,7 @@ function Header() {
         className='mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8'
         aria-label='Global'
       >
-        <div className='flex lg:flex-1 text-black'>
+        <div className='flex lg:flex-1 text-verde'>
           <a href='/' className='-m-1.5 p-1.5'>
             <span className='font-sans'>Ronan Salvador</span>
           </a>
@@ -20,7 +20,7 @@ function Header() {
         <div className='flex lg:hidden'>
           <button
             type='button'
-            className='-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700'
+            className='-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-verde'
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className='sr-only'>Open main menu</span>
@@ -28,28 +28,28 @@ function Header() {
           </button>
         </div>
         <Popover.Group className='hidden lg:flex lg:gap-x-12'>
-          <a href='/' className='text-sm font-semibold leading-6 text-gray-900'>
+          <a href='/' className='text-sm font-semibold leading-6 text-verde'>
             Sobre
           </a>
           <a
             href='/projetos'
-            className='text-sm font-semibold leading-6 text-gray-900'
+            className='text-sm font-semibold leading-6 text-verde'
           >
             Projetos
           </a>
           <a
             href='/contato'
-            className='text-sm font-semibold leading-6 text-gray-900'
+            className='text-sm font-semibold leading-6 text-verde'
           >
             Contato
           </a>
         </Popover.Group>
         <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
           <a href='https://www.linkedin.com/in/ronansalvador/'>
-            <BsLinkedin className='w-8 h-8 mr-6 hover:scale-150' />
+            <BsLinkedin className='w-8 h-8 mr-6 hover:scale-150 text-verde' />
           </a>
           <a href='https://github.com/ronansalvador'>
-            <BsGithub className='w-8 h-8 hover:scale-150' />
+            <BsGithub className='w-8 h-8 hover:scale-150 text-verde' />
           </a>
         </div>
       </nav>
@@ -61,13 +61,13 @@ function Header() {
       >
         <div className='fixed inset-0 z-10' />
         <Dialog.Panel className='fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10'>
-          <div className='flex items-center justify-between text-black'>
+          <div className='flex items-center justify-between text-verde font-bold'>
             <a href='/' className='-m-1.5 p-1.5'>
               <span className='sr-only'>Ronan Salvador</span>
             </a>
             <button
               type='button'
-              className='-m-2.5 rounded-md p-2.5 text-gray-700'
+              className='-m-2.5 rounded-md p-2.5 text-verde'
               onClick={() => setMobileMenuOpen(false)}
             >
               <span className='sr-only'>Close menu</span>
@@ -79,29 +79,29 @@ function Header() {
               <div className='space-y-2 py-6'>
                 <a
                   href='/'
-                  className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'
+                  className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-verde hover:bg-gray-50'
                 >
                   Sobre
                 </a>
                 <a
                   href='/projetos'
-                  className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'
+                  className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-verde hover:bg-gray-50'
                 >
                   Projetos
                 </a>
                 <a
                   href='/contato'
-                  className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'
+                  className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-verde hover:bg-gray-50'
                 >
                   Contato
                 </a>
               </div>
-              <div className='py-6 text-black flex'>
+              <div className='py-6 text-verde flex'>
                 <a href='https://www.linkedin.com/in/ronansalvador/'>
-                  <BsLinkedin className='w-8 h-8 mr-6' />
+                  <BsLinkedin className='w-8 h-8 mr-6 text-verde' />
                 </a>
                 <a href='https://github.com/ronansalvador'>
-                  <BsGithub className='w-8 h-8' />
+                  <BsGithub className='w-8 h-8 text-verde' />
                 </a>
               </div>
             </div>

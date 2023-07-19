@@ -12,9 +12,9 @@ export default function Home() {
           className='rounded-full h-62 w-62 max-lg:h-36 max-sm:w-36 opacity-0 scale-0 animate-surgir'
         ></Image>
       </div>
-      <div className='bg-white shadow-lg rounded-md flex flex-col flex-1 items-center justify-center p-40 max-sm:p-1'>
-        <div className='p-2 max-sm:p-0 flex flex-1 flex-col items-center justify-center opacity-0 translate-x-full animate-surgir-direita'>
-          <h1 className='font-bold max-sm:hidden'>
+      <div className='bg-white bg-opacity-50 shadow-lg rounded-md flex flex-col flex-1 items-center justify-center p-40 max-sm:p-1'>
+        <div className='p-2 max-sm:p-0 flex flex-1 flex-col items-center justify-center translate-x-full animate-surgir-direita'>
+          <h1 className='text-blue text-lg font-bold max-sm:hidden'>
             Desenvovedor web full stack
           </h1>
           <p className='text-justify mt-4 max-sm:mt-1 '>
@@ -26,39 +26,59 @@ export default function Home() {
 
         <h2 className='font-bold mt-4 max-sm:mt-1'>Stacks</h2>
         <ul className='flex flex-wrap items-center justify-center mt-4 max-sm:mt-1 opacity-0 -translate-x-full animate-surgir-esquerda'>
-          <li className='bg-green-400 m-0.5 rounded p-2 max-sm:p-1'>
+          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
             JavaScript
           </li>
-          <li className='bg-green-400 m-0.5 rounded p-2 max-sm:p-1'>
+          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
             TypeScript
           </li>
-          <li className='bg-green-400 m-0.5 rounded p-2 max-sm:p-1'>HTML</li>
-          <li className='bg-green-400 m-0.5 rounded p-2 max-sm:p-1'>CSS</li>
-          <li className='bg-green-400 m-0.5 rounded p-2 max-sm:p-1'>
+          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
+            HTML
+          </li>
+          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
+            CSS
+          </li>
+          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
             Tailwind
           </li>
-          <li className='bg-green-400 m-0.5 rounded p-2 max-sm:p-1'>React</li>
-          <li className='bg-green-400 m-0.5 rounded p-2 max-sm:p-1'>Redux</li>
-          <li className='bg-green-400 m-0.5 rounded p-2 max-sm:p-1'>Next.js</li>
-          <li className='bg-green-400 m-0.5 rounded p-2 max-sm:p-1'>Node.js</li>
-          <li className='bg-green-400 m-0.5 rounded p-2 max-sm:p-1'>Python</li>
-          <li className='bg-green-400 m-0.5 rounded p-2 max-sm:p-1'>
+          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
+            React
+          </li>
+          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
+            Redux
+          </li>
+          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
+            Next.js
+          </li>
+          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
+            Node.js
+          </li>
+          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
+            Python
+          </li>
+          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
             Express.js
           </li>
-          <li className='bg-green-400 m-0.5 rounded p-2 max-sm:p-1'>
+          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
             Sequelize
           </li>
-          <li className='bg-green-400 m-0.5 rounded p-2 max-sm:p-1'>Docker</li>
-          <li className='bg-green-400 m-0.5 rounded p-2 max-sm:p-1'>
+          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
+            Docker
+          </li>
+          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
             Mocha (Chai e Sinon)
           </li>
-          <li className='bg-green-400 m-0.5 rounded p-2 max-sm:p-1'>Jest</li>
-          <li className='bg-green-400 m-0.5 rounded p-2 max-sm:p-1'>
+          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
+            Jest
+          </li>
+          <li className='bg-verde text-white m-0.5 rounded p-2 max-sm:p-1'>
             React Testing Library
           </li>
-          <li className='bg-green-400 m-0.5 rounded p-2'>MySQL</li>
-          <li className='bg-green-400 m-0.5 rounded p-2'>MongoDB</li>
-          <li className='bg-green-400 m-0.5 rounded p-2'>Metodologias Ágeis</li>
+          <li className='bg-verde text-white m-0.5 rounded p-2'>MySQL</li>
+          <li className='bg-verde text-white m-0.5 rounded p-2'>MongoDB</li>
+          <li className='bg-verde text-white m-0.5 rounded p-2'>
+            Metodologias Ágeis
+          </li>
         </ul>
 
         <a

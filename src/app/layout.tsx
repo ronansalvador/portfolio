@@ -19,7 +19,7 @@ export default function RootLayout({
       <body className={`${inter.className} h-screen w-screen flex flex-col`}>
         <Header />
         <main
-          className={`flex bg-stone-200 h-full flex-col items-center justify-center`}
+          className={`flex bg-gradient-to-r from-dark-blue via-verde to-fuxia h-full flex-col items-center justify-center`}
         >
           {children}
         </main>
