@@ -31,16 +31,10 @@ function Header() {
           <a href='/' className='text-sm font-semibold leading-6 text-verde'>
             Sobre
           </a>
-          <a
-            href='/projetos'
-            className='text-sm font-semibold leading-6 text-verde'
-          >
+          <a href='#' className='text-sm font-semibold leading-6 text-verde'>
             Projetos
           </a>
-          <a
-            href='/contato'
-            className='text-sm font-semibold leading-6 text-verde'
-          >
+          <a href='#' className='text-sm font-semibold leading-6 text-verde'>
             Contato
           </a>
         </Popover.Group>
@@ -84,13 +78,13 @@ function Header() {
                   Sobre
                 </a>
                 <a
-                  href='/projetos'
+                  href='#'
                   className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-verde hover:bg-gray-50'
                 >
                   Projetos
                 </a>
                 <a
-                  href='/contato'
+                  href='#'
                   className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-verde hover:bg-gray-50'
                 >
                   Contato
