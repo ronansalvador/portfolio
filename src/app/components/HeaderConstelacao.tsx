@@ -67,8 +67,7 @@ function HeaderConstelacao() {
       >
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-roxo px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-          <div className="flex items-center justify-between text-fuxia font-bold">
-            <a href="/constelacao" className="-m-1.5 p-1.5 text-white"></a>
+          <div className="flex items-center justify-end text-fuxia font-bold">
             <button
               type="button"
               className="-m-2.5 rounded-md p-2.5 text-white"
