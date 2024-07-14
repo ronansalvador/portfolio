@@ -33,9 +33,10 @@ module.exports = {
         indigo: '#39207C',
         verde: '#21716A',
         fuxia: '#9B2255',
-        magenta: '#924D69',
+        magenta: '#9d437b',
+        roxo: '#502b71',
       },
     },
   },
   plugins: [],
-};
+}
