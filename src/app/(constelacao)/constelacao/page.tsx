@@ -22,7 +22,7 @@ const Constelacao = () => {
           Informações sobre Atendimento
         </Button>
         <Button link="http://wa.me/5511994963639?text=Ol%C3%A1%20Ronan%2C%20gostaria%20de%20agendar%20uma%20sess%C3%A3o%20individual%20de%20Constela%C3%A7%C3%A3o%20Familiar.">
-          Agentar atendimento indiviual
+          Agendar atendimento indiviual
         </Button>
       </div>
     </>
