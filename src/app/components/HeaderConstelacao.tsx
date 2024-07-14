@@ -85,29 +85,29 @@ function HeaderConstelacao() {
               <div className="space-y-2 py-6">
                 <a
                   href="/"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-50 hover:text-fuxia"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-white hover:text-fuxia"
                 >
                   Constalação Familiar
                 </a>
                 <a
                   href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-50 hover:text-fuxia"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-white hover:text-fuxia"
                 >
                   Como Funciona
                 </a>
                 <a
                   href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-50 hover:text-fuxia"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-white hover:text-fuxia"
                 >
                   Leis Sistemicas
                 </a>
               </div>
               <div className="py-6 text-fuxia flex">
                 <a href="https://www.instagram.com/ronansalvador/">
-                  <BsInstagram className="w-8 h-8 mr-6 text-white" />
+                  <BsInstagram className="w-8 h-8 mr-6 text-white hover:text-fuxia" />
                 </a>
                 <a href="https://api.whatsapp.com/send?phone=5511994963639&text=Ol%C3%A1%20Ronan....">
-                  <BsWhatsapp className="w-8 h-8 mr-6 text-white" />
+                  <BsWhatsapp className="w-8 h-8 mr-6 text-white hover:text-fuxia" />
                 </a>
               </div>
             </div>
