@@ -15,7 +15,7 @@ const Constelacao = () => {
         />
       </div>
       <div className="w-full flex flex-col items-center px-4 gap-4">
-        <Button link="https://forms.gle/DWLS5ajumKRKRZvt9" upperCase>
+        <Button link="https://forms.gle/Tm3S5Yi1L4WNHc8MA" upperCase>
           INSCRIÇÃO - CONSTELAÇÃO EM GRUPO
         </Button>
         <Button
@@ -29,6 +29,15 @@ const Constelacao = () => {
           upperCase
         >
           Agendar atendimento indiviual
+        </Button>
+        <Button
+          link="http://wa.me/5511994963639?text=Ol%C3%A1%20Ronan%2C%20pode%20me%20passar%20mais%20informa%C3%A7%C3%B5es%20sobre%20como%20funciona%20a%20constela%C3%A7%C3%A3o%20online%3F"
+          upperCase
+        >
+          Constelação on-line
+        </Button>
+        <Button link="https://forms.gle/M2EyjNWyEAopZFq8A" upperCase>
+          Lista de espera - constelação
         </Button>
       </div>
     </>

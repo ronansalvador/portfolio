@@ -38,12 +38,7 @@ function HeaderConstelacao() {
           >
             O que é Constalação Familiar ?
           </Link>
-          <Link
-            href="/constelacao/berthellinger"
-            className="text-sm font-semibold leading-6 text-white p-2 rounded-lg hover:bg-white hover:text-fuxia"
-          >
-            Bert Hellinger
-          </Link>
+
           <Link
             href="/constelacao/comofunciona"
             className="text-sm font-semibold leading-6 text-white p-2 rounded-lg hover:bg-white hover:text-fuxia"
@@ -55,6 +50,12 @@ function HeaderConstelacao() {
             className="text-sm font-semibold leading-6 text-white p-2 rounded-lg hover:bg-white hover:text-fuxia"
           >
             Leis Sistemicas
+          </Link>
+          <Link
+            href="/constelacao/berthellinger"
+            className="text-sm font-semibold leading-6 text-white p-2 rounded-lg hover:bg-white hover:text-fuxia"
+          >
+            Bert Hellinger
           </Link>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -87,24 +88,31 @@ function HeaderConstelacao() {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
-                <Link
+                <a
                   href="/constelacao/constelacaofamiliar"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-white hover:text-fuxia"
                 >
-                  Constalação Familiar
-                </Link>
-                <Link
+                  O que é Constalação Familiar ?
+                </a>
+                <a
                   href="/constelacao/comofunciona"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-white hover:text-fuxia"
                 >
                   Como Funciona
-                </Link>
-                <Link
+                </a>
+                <a
                   href="/constelacao/leissistemicas"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-white hover:text-fuxia"
                 >
                   Leis Sistemicas
-                </Link>
+                </a>
+
+                <a
+                  href="/constelacao/berthellinger"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-white hover:text-fuxia"
+                >
+                  Bert Hellinger
+                </a>
               </div>
               <div className="py-6 text-fuxia flex">
                 <a href="https://www.instagram.com/ronansalvador/">
