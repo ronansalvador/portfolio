@@ -9,7 +9,7 @@ function ComoFunciona() {
       <Title>Como funciona a constelação familar?</Title>
       <p>
         Quando uma ou mais das
-        <a href="./leissistemicas" className="text-magenta">
+        <a href="./leissistemicas" className="text-magenta underline">
           {` Leis Sistêmicas `}
         </a>
         não são cumpridas ou respeitadas gera-se o que chamamos de emaranhados
