@@ -1,15 +1,18 @@
 import Title from '../components/Title'
 import Atendimento from '../components/Atendimento'
+import Image from 'next/image'
 
 export default function BertHellinger() {
   return (
     <div className="flex flex-col gap-6 container mx-auto text-roxo">
       <Title>Bert Hellinger</Title>
       <div className="flex gap-6 items-center flex-col lg:flex-row">
-        <img
-          src="../berthellinger.jpg"
+        <Image
+          src="/berthellinger.jpg"
           alt="bert hellinher"
           className="rounded-full"
+          width={300}
+          height={300}
         />
         <div className="flex flex-grow flex-col gap-4">
           <p>

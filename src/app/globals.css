@@ -11,3 +11,7 @@
   margin-inline: auto;
   width: calc(var(--container-width) * 1%);
 }
+
+.logo {
+  width: 70px;
+}

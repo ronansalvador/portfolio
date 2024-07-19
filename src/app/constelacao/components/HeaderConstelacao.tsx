@@ -4,23 +4,31 @@ import { Dialog, Popover } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { BsInstagram, BsWhatsapp } from 'react-icons/bs'
 import Link from 'next/link'
+import Image from 'next/image'
 
 function HeaderConstelacao() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   return (
     <header className="bg-roxo">
       <nav
-        className="mx-auto flex max-w-7xl items-center justify-between p-6"
+        className="mx-auto flex items-center justify-evenly p-6"
         aria-label="Global"
       >
-        <div className="flex lg:flex-1 text-white">
-          <Link
-            href="/constelacao"
-            className="font-semibold p-2 rounded-lg hover:bg-white hover:text-fuxia"
-          >
-            <span className="font-sans">Ronan Salvador</span>
-          </Link>
-        </div>
+        <Link
+          href="/constelacao"
+          className="font-semibold p-2 rounded-lg flex text-white items-center gap-2"
+        >
+          {/* <div className="flex lg:flex-1 text-white items-center"> */}
+          <Image
+            src="/logo.png"
+            alt="logo"
+            className="logo"
+            width={300}
+            height={300}
+          />
+          <span className="font-sans">Ronan Salvador</span>
+        </Link>
+        {/* </div> */}
         <div className="flex lg:hidden">
           <button
             type="button"
@@ -58,7 +66,7 @@ function HeaderConstelacao() {
             Bert Hellinger
           </Link>
         </Popover.Group>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+        <div className="hidden lg:flex lg:justify-end">
           <a href="https://www.instagram.com/ronansalvador/">
             <BsInstagram className="w-8 h-8 mr-6  text-white rounded-lg hover:bg-white hover:text-fuxia" />
           </a>
