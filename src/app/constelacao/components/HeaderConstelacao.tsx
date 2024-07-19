@@ -11,7 +11,7 @@ function HeaderConstelacao() {
   return (
     <header className="bg-roxo">
       <nav
-        className="mx-auto flex items-center justify-evenly p-6"
+        className="mx-auto flex items-center lg:justify-evenly p-6 justify-between"
         aria-label="Global"
       >
         <Link
@@ -21,7 +21,7 @@ function HeaderConstelacao() {
           <Image
             src="/logo.png"
             alt="logo"
-            className="logo hidden sm:block"
+            className="logo hidden md:block"
             width={300}
             height={300}
           />
