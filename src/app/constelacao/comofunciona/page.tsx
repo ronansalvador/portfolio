@@ -10,7 +10,7 @@ function ComoFunciona() {
       <p>
         Quando uma ou mais das
         <a href="./leissistemicas" className="text-magenta">
-          Leis Sistêmicas
+          {` Leis Sistêmicas `}
         </a>
         não são cumpridas ou respeitadas gera-se o que chamamos de emaranhados
         em nossos sistemas. Esses emaranhados provocam conflitos emocionais,
