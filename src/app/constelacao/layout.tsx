@@ -3,6 +3,18 @@ import HeaderConstelacao from './components/HeaderConstelacao'
 export const metadata = {
   title: 'Ronan Salvador',
   description: 'Constelação Familiar',
+  authors: [{ name: 'Ronan Salvador', url: 'https://ronansalvador.com.br' }],
+  keywords: [
+    'constelação',
+    'constelacao',
+    'constelacao familiar',
+    'constelação familiar',
+    'leis sistemicas',
+    'bert heliinger',
+    'ordens sistemicas',
+    'leis do amor',
+    'ordens do amor',
+  ],
 }
 
 export default function ConstelacaoLayout({
