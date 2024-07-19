@@ -2,16 +2,17 @@ import React from 'react'
 import Title from '../components/Title'
 import Button from '../../components/Button'
 import Atendimento from '../components/Atendimento'
+import Link from 'next/link'
 
 function ComoFunciona() {
   return (
     <div className="flex flex-col gap-6 container mx-auto text-roxo">
       <Title>Como funciona a constelação familar?</Title>
       <p>
-        Quando uma ou mais das
-        <a href="./leissistemicas" className="text-magenta underline">
-          {` Leis Sistêmicas `}
-        </a>
+        Quando uma ou mais das{' '}
+        <Link href="./leissistemicas" className="text-magenta underline">
+          Leis Sistêmicas
+        </Link>{' '}
         não são cumpridas ou respeitadas gera-se o que chamamos de emaranhados
         em nossos sistemas. Esses emaranhados provocam conflitos emocionais,
         problemas de relacionamentos, doenças psicossomáticas, medos, psicoses,

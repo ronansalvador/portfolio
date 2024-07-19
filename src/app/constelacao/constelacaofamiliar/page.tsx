@@ -9,10 +9,10 @@ function ConstelacaoFamiliar() {
       <p>
         A Constelação Familiar é uma metodologia fenomenológica desenvolvida
         pelo psicoterapeuta alemão <a href="berthellinger">Bert Hellinger</a>, a
-        partir das observações e entendimentos das
-        <Link href="./leissistemicas" className="text-magenta">
-          {` "ordens" `}
-        </Link>
+        partir das observações e entendimentos das{' '}
+        <Link href="./leissistemicas" className="text-magenta underline">
+          {`"ordens"`}
+        </Link>{' '}
         que atuam nos sistemas familiares. Muitos de nossos aprendizados e
         comportamentos têm origem de nosso sistema familiar e estão presentes em
         nosso inconsciente. Cada família é um sistema em que todos os membros
