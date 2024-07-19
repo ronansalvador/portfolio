@@ -38,7 +38,7 @@ function HeaderConstelacao() {
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
-        <Popover.Group className="hidden lg:flex lg:gap-x-12">
+        <Popover.Group className="hidden lg:flex flex-grow justify-evenly">
           <Link
             href="/constelacao/constelacaofamiliar"
             className="text-sm font-semibold leading-6 text-white p-2 rounded-lg hover:bg-white hover:text-fuxia"
