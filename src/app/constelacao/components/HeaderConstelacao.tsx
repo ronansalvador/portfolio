@@ -18,11 +18,10 @@ function HeaderConstelacao() {
           href="/constelacao"
           className="font-semibold p-2 rounded-lg flex text-white items-center gap-2"
         >
-          {/* <div className="flex lg:flex-1 text-white items-center"> */}
           <Image
             src="/logo.png"
             alt="logo"
-            className="logo"
+            className="logo hidden sm:block"
             width={300}
             height={300}
           />
