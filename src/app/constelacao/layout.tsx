@@ -1,5 +1,10 @@
 import HeaderConstelacao from './components/HeaderConstelacao'
 
+export const metadata = {
+  title: 'Ronan Salvador',
+  description: 'Constelação Familiar',
+}
+
 export default function ConstelacaoLayout({
   children,
 }: Readonly<{
