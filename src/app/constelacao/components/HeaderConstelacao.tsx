@@ -32,19 +32,25 @@ function HeaderConstelacao() {
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <a
-            href="/"
+            href="/constelacao/constelacaofamiliar"
             className="text-sm font-semibold leading-6 text-white p-2 rounded-lg hover:bg-white hover:text-fuxia"
           >
-            Constalação Familiar
+            O que é Constalação Familiar ?
           </a>
           <a
-            href="#"
+            href="/constelacao/berthellinger"
+            className="text-sm font-semibold leading-6 text-white p-2 rounded-lg hover:bg-white hover:text-fuxia"
+          >
+            Bert Hellinger
+          </a>
+          <a
+            href="/constelacao/comofunciona"
             className="text-sm font-semibold leading-6 text-white p-2 rounded-lg hover:bg-white hover:text-fuxia"
           >
             Como Funciona
           </a>
           <a
-            href="#"
+            href="/constelacao/leissistemicas"
             className="text-sm font-semibold leading-6 text-white p-2 rounded-lg hover:bg-white hover:text-fuxia"
           >
             Leis Sistemicas
@@ -81,7 +87,7 @@ function HeaderConstelacao() {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 <a
-                  href="/"
+                  href="/constelacaofamiliar"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-white hover:text-fuxia"
                 >
                   Constalação Familiar
