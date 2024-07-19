@@ -1,5 +1,5 @@
 import Atendimento from '../components/Atendimento'
-import Button from '../components/Button'
+import Button from '../../components/Button'
 import Title from '../components/Title'
 
 function ConstelacaoFamiliar() {
