@@ -13,8 +13,14 @@ function Header() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1 text-verde">
-          <a href="/" className="-m-1.5 p-1.5"></a>
+          <a
+            href="/constelacao"
+            className="font-semibold p-2 rounded-lg hover:bg-verde hover:text-white"
+          >
+            <span className="font-sans">Ronan Salvador</span>
+          </a>
         </div>
+
         <div className="flex lg:hidden">
           <button
             type="button"
@@ -26,13 +32,22 @@ function Header() {
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
-          <a href="/" className="text-sm font-semibold leading-6 text-verde">
+          <a
+            href="/"
+            className="text-sm font-semibold leading-6 text-verde p-2 rounded-lg hover:bg-verde hover:text-white"
+          >
             Sobre
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-verde">
+          <a
+            href="#"
+            className="text-sm font-semibold leading-6 text-verde p-2 rounded-lg hover:bg-verde hover:text-white"
+          >
             Projetos
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-verde">
+          <a
+            href="#"
+            className="text-sm font-semibold leading-6 text-verde p-2 rounded-lg hover:bg-verde hover:text-white"
+          >
             Contato
           </a>
         </Popover.Group>
@@ -68,19 +83,19 @@ function Header() {
               <div className="space-y-2 py-6">
                 <a
                   href="/"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-verde hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-verde hover:bg-verde hover:text-white"
                 >
                   Sobre
                 </a>
                 <a
                   href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-verde hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-verde hover:bg-verde hover:text-white"
                 >
                   Projetos
                 </a>
                 <a
                   href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-verde hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-verde hover:bg-verde hover:text-white"
                 >
                   Contato
                 </a>
