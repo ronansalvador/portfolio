@@ -9,7 +9,7 @@ const Constelacao = () => {
         <Image
           src="/ronansalvador.jpg"
           alt="ronan salvador"
-          className="rounded-full p-4"
+          className="rounded-full p-4 w-1/2 mx-auto"
           width={300}
           height={300}
         />
