@@ -87,19 +87,19 @@ function HeaderConstelacao() {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 <a
-                  href="/constelacaofamiliar"
+                  href="/constelacao/constelacaofamiliar"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-white hover:text-fuxia"
                 >
                   Constalação Familiar
                 </a>
                 <a
-                  href="#"
+                  href="/constelacao/comofunciona"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-white hover:text-fuxia"
                 >
                   Como Funciona
                 </a>
                 <a
-                  href="#"
+                  href="/constelacao/leissistemicas"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-white hover:text-fuxia"
                 >
                   Leis Sistemicas
