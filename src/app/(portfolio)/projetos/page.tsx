@@ -28,11 +28,11 @@ async function page() {
           Full-Stack
         </button>
       </div> */}
-      <div className="container mx-auto p-4 m-2 flex flex-wrap items-center justify-center">
+      <div className="container mx-auto p-4 m-2 flex md:flex-row flex-wrap items-center justify-center">
         {projetos.map(({ fields }) => (
           <div
             key={fields.id}
-            className="w-1/4 max-sm:w-full h-40 bg-white bg-opacity-50 shadow-lg  rounded-lg m-3 translate-x-full animate-surgir"
+            className="w-full sm:w-1/4 min-w-[300px] max-w-[600px] h-40 bg-white bg-opacity-50 shadow-lg  rounded-lg m-3 translate-x-full animate-surgir"
           >
             <CardProject project={fields} />
           </div>
