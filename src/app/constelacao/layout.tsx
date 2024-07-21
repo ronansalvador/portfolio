@@ -15,6 +15,9 @@ export const metadata = {
     'leis do amor',
     'ordens do amor',
   ],
+  icons: {
+    icon: '/favicon.ico',
+  },
 }
 
 export default function ConstelacaoLayout({

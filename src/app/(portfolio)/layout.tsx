@@ -1,5 +1,13 @@
 import Header from '../components/Header'
 
+export const metadata = {
+  title: 'Ronan Salvador',
+  description: 'Ronan Fernando Salvador',
+  icons: {
+    icon: '/R.ico',
+  },
+}
+
 export default function RootLayout({
   children,
 }: {
