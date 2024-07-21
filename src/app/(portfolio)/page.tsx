@@ -35,9 +35,9 @@ export default function Home() {
       </div>
       <div className="bg-white bg-opacity-20 shadow-lg rounded-md flex flex-col flex-1 items-center justify-center p-8 md:p-4 max-sm:p-2">
         <div className="w-3/4 mx-auto flex flex-col items-center justify-center translate-x-full animate-surgir-direita">
-          <h4 className="text-white text-md font-bold max-sm:hidden">
+          <h2 className="text-white font-bold mt-4 max-sm:mt-1 text-lg md:text-xl lg:text-2xl">
             Desenvolvedor web full stack
-          </h4>
+          </h2>
           <p className="text-white text-justify mt-4 max-sm:mt-1 text-sm md:text-base lg:text-lg">
             Sou Desenvolvedor Web Full Stack com formação em Ciências da
             Computação, possuo vasta experiência em testes e gerenciamento de

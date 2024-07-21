@@ -39,13 +39,13 @@ function Header() {
             Sobre
           </a>
           <a
-            href="#"
+            href="/projetos"
             className="text-sm font-semibold leading-6 text-verde p-2 rounded-lg hover:bg-verde hover:text-white"
           >
             Projetos
           </a>
           <a
-            href="#"
+            href="/contato"
             className="text-sm font-semibold leading-6 text-verde p-2 rounded-lg hover:bg-verde hover:text-white"
           >
             Contato
@@ -88,13 +88,13 @@ function Header() {
                   Sobre
                 </a>
                 <a
-                  href="#"
+                  href="/projetos"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-verde hover:bg-verde hover:text-white"
                 >
                   Projetos
                 </a>
                 <a
-                  href="#"
+                  href="/contato"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-verde hover:bg-verde hover:text-white"
                 >
                   Contato
