@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { FaFileAlt } from 'react-icons/fa'
 
 const stacks = [
   'JavaScript',
@@ -65,8 +66,9 @@ export default function Home() {
         <a
           href="/RonanFernandoSalvador.pdf"
           target="_blank"
-          className="bg-white hover:scale-110 text-verde font-bold py-2 px-4 rounded mt-4 max-sm:mt-1"
+          className="flex gap-2 bg-white hover:scale-110 text-verde font-bold py-2 px-4 rounded mt-4 max-sm:mt-1"
         >
+          <FaFileAlt className="w-6 h-6 mr-1" />
           Visualizar CV
         </a>
       </div>

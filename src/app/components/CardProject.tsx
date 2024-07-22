@@ -43,11 +43,6 @@ const CardProject: React.FC<CardProjectProps> = ({ project }) => {
       {showLink ? (
         <div className="flex flex-col items-center justify-center h-full p-2 overflow-hidden">
           <Image
-            // src={project.image}
-            // alt={project.titulo}
-            // width={project.width}
-            // height="100"
-            // className="object-cover"
             src={`https:${project.image.fields.file.url}`}
             alt={project.image.fields.description}
             width={200}
