@@ -15,6 +15,9 @@ const Constelacao = () => {
         />
       </div>
       <div className="w-full flex flex-col items-center px-4 gap-4">
+        <Button link="https://mpago.la/32Z1JVP" upperCase>
+          Pagamento Constelação
+        </Button>
         <Button link="https://forms.gle/Tm3S5Yi1L4WNHc8MA" upperCase>
           INSCRIÇÃO - CONSTELAÇÃO EM GRUPO
         </Button>
