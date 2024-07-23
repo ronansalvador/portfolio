@@ -14,7 +14,7 @@ function Header() {
       >
         <div className="flex lg:flex-1 text-verde">
           <a
-            href="/constelacao"
+            href="/"
             className="font-semibold p-2 rounded-lg hover:bg-verde hover:text-white"
           >
             <span className="font-sans">Ronan Salvador</span>
