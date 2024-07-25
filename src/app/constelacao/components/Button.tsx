@@ -24,7 +24,7 @@ export default function Button({
   return (
     <Link
       href={link}
-      className={`bg-magenta rounded-lg px-4 py-2.5 text-white w-full flex items-center justify-center hover:bg-roxo max-w-7xl text-center text-lg ${className}`}
+      className={`bg-magenta rounded-lg px-4 py-2.5 text-white w-full flex items-center justify-center hover:bg-roxo text-center text-lg max-w-xl ${className}`}
     >
       {renderChildren(children)}
     </Link>

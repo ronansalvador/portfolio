@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../components/Title'
-import Button from '../../components/Button'
+import Button from '../components/Button'
 import Atendimento from '../components/Atendimento'
 import Link from 'next/link'
 
