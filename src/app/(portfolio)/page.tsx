@@ -64,7 +64,7 @@ export default function Home() {
         </ul>
 
         <a
-          href="/RonanFernandoSalvador.pdf"
+          href="/CVRonanFernandoSalvador.pdf"
           target="_blank"
           className="flex gap-2 bg-white hover:scale-110 text-verde font-bold py-2 px-4 rounded mt-4 max-sm:mt-1"
         >
