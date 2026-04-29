@@ -1,27 +1,51 @@
 import Image from 'next/image'
 import { FaFileAlt } from 'react-icons/fa'
 
+// const stacks = [
+//   'JavaScript',
+//   'TypeScript',
+//   'HTML',
+//   'CSS',
+//   'Tailwind',
+//   'React',
+//   'Next.js',
+//   'Node.js',
+//   'Python',
+//   'Express.js',
+//   'Sequelize',
+//   'Docker',
+//   'Mocha (Chai e Sinon)',
+//   'Jest',
+//   'React Testing Library',
+//   'MySQL',
+//   'MongoDB',
+//   'Metodologias Ágeis',
+// ]
+
 const stacks = [
+  // Gestão & Produto
+  'Scrum',
+  'Kanban',
+  'Gestão de Backlog',
+  'Roadmap',
+  'Product Discovery',
+  'KPIs & Métricas',
+  'Stakeholder Management',
+
+  // Tech como diferencial
   'JavaScript',
   'TypeScript',
-  'HTML',
-  'CSS',
-  'Tailwind',
   'React',
   'Next.js',
   'Node.js',
   'Python',
-  'Express.js',
-  'Sequelize',
-  'Docker',
-  'Mocha (Chai e Sinon)',
-  'Jest',
-  'React Testing Library',
-  'MySQL',
-  'MongoDB',
-  'Metodologias Ágeis',
-]
+  'APIs & Integrações',
 
+  // Automação & IA
+  'n8n',
+  'Automação de Processos',
+  'IA Generativa',
+]
 export default function Home() {
   return (
     <div className="h-5/6 w-5/6 flex flex-col lg:flex-row max-sm:h-full max-sm:w-full">
@@ -37,15 +61,25 @@ export default function Home() {
       <div className="bg-white bg-opacity-20 shadow-lg rounded-md flex flex-col flex-1 items-center justify-center p-8 md:p-4 max-sm:p-2">
         <div className="w-3/4 mx-auto flex flex-col items-center justify-center translate-x-full animate-surgir-direita">
           <h2 className="text-white font-bold mt-4 max-sm:mt-1 text-lg md:text-xl lg:text-2xl">
-            Desenvolvedor web full stack
+            Coordenador de Projetos | Produto & Tecnologia
           </h2>
           <p className="text-white text-justify mt-4 max-sm:mt-1 text-sm md:text-base lg:text-lg">
-            Sou Desenvolvedor Web Full Stack com formação em Ciências da
+            {/* Sou Desenvolvedor Web Full Stack com formação em Ciências da
             Computação, possuo vasta experiência em testes e gerenciamento de
             equipes. Sou apaixonado por criar aplicações que impactam
             positivamente a vida das pessoas e acredito fortemente em um
             ambiente colaborativo. Adoro aprender e compartilhar conhecimentos,
-            sempre buscando aprimorar minhas habilidades.
+            sempre buscando aprimorar minhas habilidades. */}
+            Atuo como Coordenador de Projetos em tecnologia, conectando
+            estratégia de negócio e times técnicos para garantir entregas com
+            qualidade, previsibilidade e impacto. Tenho experiência na condução
+            de squads multidisciplinares, gestão de backlog, priorização de
+            demandas e acompanhamento de indicadores. Meu background como
+            desenvolvedor full stack me permite tomar decisões mais assertivas,
+            facilitar a comunicação com engenharia e atuar na resolução de
+            problemas complexos. Também venho atuando com automação de processos
+            e uso de inteligência artificial, buscando eficiência operacional e
+            geração de valor.
           </p>
         </div>
 
@@ -64,7 +98,7 @@ export default function Home() {
         </ul>
 
         <a
-          href="/CVRonanFernandoSalvador.pdf"
+          href="/RonanFernandoSalvador.pdf"
           target="_blank"
           className="flex gap-2 bg-white hover:scale-110 text-verde font-bold py-2 px-4 rounded mt-4 max-sm:mt-1"
         >
